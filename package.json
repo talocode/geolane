@@ -1,12 +1,12 @@
 {
   "name": "@talocode/geolane",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI Search Visibility Intelligence API — GEO audit, AI crawler access, citation readiness, llms.txt, domain compare",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "geolane": "./dist/cli.js"
+    "geolane": "dist/cli.js"
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -42,7 +42,6 @@
     "url": "https://github.com/talocode/geolane/issues"
   },
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.10.2",
     "tsx": "^4.19.2",
